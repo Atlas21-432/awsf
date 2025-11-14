@@ -1,6 +1,13 @@
-# AWSF - AWS Fuzzy Finder
+# AWSF - AWS Fuzzy Finder ☁️
 
-A powerful, interactive fuzzy search tool for AWS resources across multiple services. Built for developers and DevOps engineers who need to quickly find and access AWS resources.
+[![GitHub Stars](https://img.shields.io/github/stars/asayed18/awsf?style=social)](https://github.com/asayed18/awsf/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
+> A powerful, interactive fuzzy search tool for AWS resources. Search Lambda functions, S3 buckets, SQS queues, DynamoDB tables, RDS instances, Kinesis streams, and API Gateway APIs with lightning-fast fuzzy matching. Built for developers and DevOps engineers who need to quickly find and access AWS resources.
+
+**Keywords**: AWS CLI, AWS Console, fuzzy finder, fzf, AWS Lambda, S3, SQS, DynamoDB, RDS, Kinesis, API Gateway, DevOps tools, cloud infrastructure, AWS resource management
 
 ## 🎬 Demo
 
@@ -223,11 +230,32 @@ Minimum required IAM permissions for resource discovery:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## 💝 Show Your Support
+
+AWSF is built with ❤️ for the AWS community. If this tool saves you time and makes your workflow smoother:
+
+- ⭐ **Star this repository** - It helps others discover the tool and motivates continued development
+- 🐛 **Report issues & ideas** - Your feedback shapes the [roadmap](https://github.com/asayed18/awsf/issues)
+- � **Contribute code** - See our [Contributing Guide](CONTRIBUTING.md) to get started
+- 💬 **Share your story** - Tweet about how AWSF helps your workflow (tag [@asayed](https://twitter.com/asayed))
+- ☕ **Buy me a coffee** - Fuel late-night coding sessions → [Ko-fi](https://ko-fi.com/asayed18) | [Buy Me a Coffee](https://buymeacoffee.com/asayed18)
+- 💎 **Become a sponsor** - Support ongoing development → [GitHub Sponsors](https://github.com/sponsors/asayed18)
+
+Every star, issue report, and contribution helps make AWSF better for everyone. Thank you! 🙏
+
+## � Security
+
+See [SECURITY.md](SECURITY.md) for information about reporting security vulnerabilities.
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⭐ Star History
+
+If you find this tool useful, please consider giving it a star! It helps others discover the project.
 
 ## 🙏 Acknowledgments
 
