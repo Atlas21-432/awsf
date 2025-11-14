@@ -1,0 +1,11 @@
+{
+  "enabled_services": [
+    "lambda",
+    "s3",
+    "sqs",
+    "kinesis",
+    "dynamodb",
+    "rds",
+    "apigateway"
+  ]
+}
