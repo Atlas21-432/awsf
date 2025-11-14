@@ -5,6 +5,10 @@
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/asayed18)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/asayed18)
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Sponsor-EA4AAA?logo=github-sponsors&logoColor=white)](https://github.com/sponsors/asayed18)
+
 > A powerful, interactive fuzzy search tool for AWS resources. Search Lambda functions, S3 buckets, SQS queues, DynamoDB tables, RDS instances, Kinesis streams, and API Gateway APIs with lightning-fast fuzzy matching. Built for developers and DevOps engineers who need to quickly find and access AWS resources.
 
 **Keywords**: AWS CLI, AWS Console, fuzzy finder, fzf, AWS Lambda, S3, SQS, DynamoDB, RDS, Kinesis, API Gateway, DevOps tools, cloud infrastructure, AWS resource management
