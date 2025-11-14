@@ -4,9 +4,12 @@ A powerful, interactive fuzzy search tool for AWS resources across multiple serv
 
 ## 🎬 Demo
 
-![AWSF Demo](docs/demo.gif)
+<!-- Uncomment when demo GIF is uploaded -->
+<!-- ![AWSF Demo](docs/demo.gif) -->
 
-> **Note**: Search, filter, and open AWS resources in seconds with an intuitive fuzzy finder interface.
+> **📹 Demo**: A demo GIF showing AWSF in action will be added soon. See the [Demo Guide](docs/DEMO_GUIDE.md) for recording instructions.
+> 
+> **Quick Preview**: Search, filter, and open AWS resources in seconds with an intuitive fuzzy finder interface.
 
 ## ✨ Features
 
