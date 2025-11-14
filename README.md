@@ -2,7 +2,11 @@
 
 A powerful, interactive fuzzy search tool for AWS resources across multiple services. Built for developers and DevOps engineers who need to quickly find and access AWS resources.
 
+## 🎬 Demo
+
 ![AWSF Demo](docs/demo.gif)
+
+> **Note**: Search, filter, and open AWS resources in seconds with an intuitive fuzzy finder interface.
 
 ## ✨ Features
 
